@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lilani Plants Home Page</title>
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+<body>
+    <div class="top-section">
+        <div class="header">
+            <div class="left-header">
+                <img src="./media/White-Text-Logo.png" class="image-header" alt="Lilani Plants White Logo" style="width:150px;height:70px;object-fit:cover;object-position: 50% 50%">
+            </div>
+            <ul class="right-header">
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./shop.html">Shop</a></li>
+                <li><a href="./privacy-policy.html">Privacy Policy</a></li>
+            </ul>
+        </div>
+        <div class="top-container-media">
+            <div class="text-content">
+                <div class="title-text">Lilani Plants</div>
+                <div class="subtext">An app-connected indoor self-watering plant pot that takes care of your plants.
+                    So you don't have to worry.
+                </div>
+                <button class="shop">Shop</button>
+            </div>
+            <img src="./media/Lilani-Pot-Main-Picture.jpg" class="image" alt="Picture of a Lilani Plant Pot">
+        </div>
+    </div>
+    <div class="card-section">
+        <div class="card-title">Features</div>
+        <div class="card-container">
+            <div class="card">
+                <img src="./media/Lilani Pot Indoors Sideways 2.jpeg" class="image" alt="Picture of a Lilani Plant Pot with sensor" style="object-position: 20% 100%">
+                <div class="text">Convenient</div>
+                <div class="subtext">Lilani Plant Devices automatically and intelligently water your plants based on soil moisture levels calibrated specifically for your plant through precise bluetooth and database technology (which means that you can sit back, relax, and enjoy the view).</div>
+            </div>
+            <div class="card">
+                <img src="./media/app-mockup.png" class="image" alt="Picture of a Lilani Plant App with Houseplant Tips Features">
+                <div class="text">Smart</div>
+                <div class="subtext">Connect our Lilani Plant Devices with our iPhone app to track all of your plants at once. We'll also let you set custom notes and notifications and give you plant care tips on sunlight, fertilizing, and pests so that you can be the best plant parent you know.</div>
+            </div>
+            <div class="card">
+                <img src="./media/Lilani-Pot-Third.JPG" class="image" alt="Picture of a Lilani Plant Pot in a bedroom">
+                <div class="text">Eco-Friendly</div>
+                <div class="subtext">Lilani Plant Devices save up to 30% more water than a regular planter because of its effective self-watering feature. So not only are you caring for your plants, but you're also doing your part to help the planet. Save water, one planter at a time.</div>
+            </div>
+        </div>
+    </div>
+    <div class="video-section">
+        <video width="640" height="480" controls>
+            <source src="./media/Lilani Product Video.mp4" type="video/mp4">
+        </video>
+    </div>
+    <div class="third-section">
+        <div class="card-title">What is Lilani?</div>
+        <div class="media">
+            <div class="text">Instead of worrying about when to water your plants and whether you have the time, let Lilani's smart self-watering plant devices take care of your plants for you. Our technology can keep your plants watered for up to a month before you need to refill the water tank (which means you'll never have to waste precious time again). 
+                Perfect for the avid traveler or houseplant lover.
+                But wait, there's more! Use our mobile iPhone app to see which plants you should add to your collection and how to effectively tend to them. You'll also be able to check your plant's soil moisture levels and learn important houseplant tips on sunlight, pests, and more. Just connect to the app, add some soil, and let Lilani take care of the rest!</div>
+            <img src="./media/Lilani Pot Indoors Sideways 2.jpeg" class="image" alt="Picture of a Lilani Plant Pot with sensor"></div>
+        </div>
+    </div>
+    <div class="end-section">
+        <div class="container">
+            <div class="text-box">
+                <div class="title">Contact Us With Questions or Suggestions!</div>
+                <div class="subtitle">Our Email Is lilaniplants@gmail.com</div>
+            </div>
+            <a href="mailto:lilaniplants@gmail.com" class="contact">Contact</a>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="content">Copyright @ Lilani Plants 2022</div>
+    </div>
+<script>
+    const shopBtn = document.querySelector(".shop");
+    shopBtn.addEventListener("click", () => window.location.href = "./shop.html");
+</script>
+</body>
+</html>
